@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "informations",
+  "info": {
+    "singularName": "information",
+    "pluralName": "informations",
+    "displayName": "Aktuelle Informationen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "snowdepth": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "temperature": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "coronainformation": {
+      "type": "text",
+      "unique": false
+    },
+    "information": {
+      "type": "text"
+    },
+    "bus": {
+      "type": "boolean"
+    }
+  }
+}
